@@ -5,5 +5,5 @@ token: "200e5"
 depot: "h3d"
 
 file:
-  path: "E:\\go\\src\\arthub_tag_import"
-  name: "arthub_test.xlsx"
+  path: E:\go\src\arthub_tag_import
+  name: arthub_test.xlsx

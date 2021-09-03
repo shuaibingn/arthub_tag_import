@@ -74,7 +74,7 @@ func ReadExcel(path string, header map[string]string) error {
 			}
 
 			if uploadResp.Code != 0 {
-				return errors.New(fmt.Sprintf("update error, code is %d\n", uploadResp.Code))
+				return errors.New(fmt.Sprintf("upload error, code is %d\n", uploadResp.Code))
 			}
 		}
 
