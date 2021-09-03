@@ -1,0 +1,9 @@
+# http://arthub-api.h3d.com.cn/h3d/data/openapi/v2/core/add-asset-tag
+domain: "http://arthub-api.h3d.com.cn"
+token: "200e5"
+
+depot: "h3d"
+
+file:
+  path: "E:\\go\\src\\arthub_tag_import"
+  name: "arthub_test.xlsx"
