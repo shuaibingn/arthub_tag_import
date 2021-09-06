@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"fmt"
 	"log"
 	"os"
 	"strings"
@@ -16,8 +15,8 @@ func main() {
 	if err := internal.ReadExcel(path+"/"+internal.GlobalConfig.File.Name, header); err != nil {
 		log.Println(err)
 	}
-	fmt.Println("finished!!!")
-	fmt.Println("press any key to continue...")
+	log.Println("finished!!!")
+	log.Println("press any key to continue...")
 	input := bufio.NewScanner(os.Stdin)
 	input.Scan()
 }
